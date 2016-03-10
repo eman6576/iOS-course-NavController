@@ -12,6 +12,8 @@
 		8845B1EA1C91374300866CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8845B1E81C91374300866CA3 /* Main.storyboard */; };
 		8845B1EC1C91374300866CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8845B1EB1C91374300866CA3 /* Assets.xcassets */; };
 		8845B1EF1C91374300866CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8845B1ED1C91374300866CA3 /* LaunchScreen.storyboard */; };
+		8845B1F91C9139BC00866CA3 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845B1F81C9139BC00866CA3 /* YellowViewController.swift */; };
+		8845B1FB1C913A7100866CA3 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845B1FA1C913A7100866CA3 /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8845B1EB1C91374300866CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8845B1EE1C91374300866CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8845B1F01C91374300866CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8845B1F81C9139BC00866CA3 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		8845B1FA1C913A7100866CA3 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8845B1EB1C91374300866CA3 /* Assets.xcassets */,
 				8845B1ED1C91374300866CA3 /* LaunchScreen.storyboard */,
 				8845B1F01C91374300866CA3 /* Info.plist */,
+				8845B1F81C9139BC00866CA3 /* YellowViewController.swift */,
+				8845B1FA1C913A7100866CA3 /* BlueViewController.swift */,
 			);
 			path = NavController;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8845B1E71C91374300866CA3 /* ViewController.swift in Sources */,
+				8845B1F91C9139BC00866CA3 /* YellowViewController.swift in Sources */,
+				8845B1FB1C913A7100866CA3 /* BlueViewController.swift in Sources */,
 				8845B1E51C91374300866CA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
